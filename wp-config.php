@@ -19,13 +19,13 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dtdhqwrucf');
+define('DB_NAME', 'erdqstpfkk');
 
 /** MySQL database username */
-define('DB_USER', 'dtdhqwrucf');
+define('DB_USER', 'erdqstpfkk');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'm5akPDNxTt');
+define('DB_PASSWORD', 'm2SESxaRwa');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
