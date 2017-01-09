@@ -1,0 +1,30 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="ignore">_udt_post_meta</custom-field>
+		<custom-field action="ignore">_udt_page_meta</custom-field>
+		<custom-field action="ignore">_udt_portfolio_meta</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">udt_portfolio</custom-type>
+		<custom-type translate="1">udt_shortcode_slider</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="udt_raw_frontpage_latest_projects_title" />
+		<key name="udt_raw_frontpage_latest_projects_button_label" />
+		<key name="udt_raw_frontpage_latest_posts_title" />
+		<key name="udt_raw_blog_title" />
+		<key name="udt_raw_blog_teaser" />
+		<key name="udt_raw_contact_form_title" />
+		<key name="udt_raw_contact_form_message" />
+		<key name="udt_raw_contact_form_required_fields_label" />
+		<key name="udt_raw_contact_form_required_fields_label_ajax" />
+		<key name="udt_raw_contact_form_success_message" />
+		<key name="udt_raw_contact_form_email_warning" />
+		<key name="udt_raw_contact_form_warning" />
+		<key name="udt_raw_contact_form_error" />
+		<key name="udt_raw_footer_copyright" />
+	</admin-texts>
+</wpml-config>
