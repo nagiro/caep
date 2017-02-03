@@ -120,6 +120,7 @@
 						echo '<div class="thumb" data-project-categories="'.$project_categories.'">
 							<a href="'.get_permalink($udt_project->ID).'" title="'.esc_attr($udt_project->post_title).'" '.$display_media_caption.'>
 								<img src="'.$image_src[0].'" alt="'.esc_attr($udt_project->post_title).'">
+								<div style="font-family: Source Sans Pro, sans-serif; padding:15px; padding-left:5px; background-color:black; color:white; width:100%; font-weight:bold;">'.$udt_project->post_title.'</div>
 							</a>
 						</div>';
 					}

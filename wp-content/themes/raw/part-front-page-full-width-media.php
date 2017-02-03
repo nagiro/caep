@@ -237,7 +237,7 @@
 
 				if(returnOptionValue('frontpage_latest_projects_title') != '') {
 					echo '<div class="sub-section-title">';
-					echo '<h2>' . returnOptionValue('frontpage_latest_projects_title') . '</h2>';
+					echo '<h2>COMPANYIES D\'ARTS ESCÈNIQUES PROFESSIONALS</h2>';
 					echo '</div>';
 				}
 
@@ -267,6 +267,7 @@
 							echo '<div class="thumb" data-project-categories="'.$project_categories.'">
 								<a href="'.get_permalink($udt_project->ID).'" title="'.esc_attr($udt_project->post_title).'" '.$display_media_caption.'>
 									<img src="'.$image_src[0].'" alt="'.esc_attr($udt_project->post_title).'">
+									<div class="titol_foto">'.$udt_project->post_title.'</div>
 								</a>
 							</div>';
 						}

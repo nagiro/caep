@@ -86,7 +86,8 @@
 						echo '<div class="thumb" data-project-categories="'.$project_categories.'">
 							<a href="'.get_permalink($udt_project->ID).'" title="'.esc_attr($udt_project->post_title).'" '.$display_media_caption.'>
 								<img src="'.$image_src[0].'" alt="'.esc_attr($udt_project->post_title).'">
-							</a>
+								<div class="titol_foto">'.$udt_project->post_title.'</div>
+							</a>							
 						</div>';
 					}
 				}
